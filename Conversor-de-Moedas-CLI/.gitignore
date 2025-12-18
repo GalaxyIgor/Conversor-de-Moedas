@@ -43,3 +43,14 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignorar a pasta de cache do Gradle
+.gradle/
+build/
+
+# NÃO ignorar o Gradle Wrapper (Importante para o CI/CD)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local properties (Onde você esconde suas chaves)
+local.properties
